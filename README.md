@@ -45,5 +45,5 @@ For support, you can create an [issue](https://github.com/0tia0/Magi-Defense-TD/
 ## 👨🏻‍💻 Authors
 
 - Mattia Marelli: [@0tia0](https://www.github.com/0tia0)
-- Elia Simonetto: [@0Evern0](https://www.github.com/Evern0)
+- Elia Simonetto: [@Evern0](https://www.github.com/Evern0)
 - Alessio Randò: [@DarkAle14](https://www.github.com/DarkAle14)
