@@ -1,0 +1,4 @@
+repository "Magi-Defense-TD/Magi-Defense-TD@6872297247720@cloud"
+  path "/"
+    br "/main"
+    co "/main"
