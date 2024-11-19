@@ -4,9 +4,9 @@ This repository contains the source code for the project **Magi Defense TD**. A 
 
 ## 🔰 Badges
 
-![GitHub Repo stars](https://img.shields.io/github/stars/0tia0/Zodiac-Calculator-V2.0?style=social) ![GitHub forks](https://img.shields.io/github/forks/0tia0/Zodiac-Calculator-V2.0?style=social)  
+![GitHub Repo stars](https://img.shields.io/github/stars/0tia0/Magi-Defense-TD?style=social) ![GitHub forks](https://img.shields.io/github/forks/0tia0/Magi-Defense-TD?style=social)  
 
-![GitHub issues](https://img.shields.io/github/issues/0tia0/Zodiac-Calculator-V2.0) ![GitHub pull requests](https://img.shields.io/github/issues-pr/0tia0/Zodiac-Calculator-V2.0) ![GitHub contributors](https://img.shields.io/github/contributors/0tia0/Zodiac-Calculator-V2.0)
+![GitHub issues](https://img.shields.io/github/issues/0tia0/Magi-Defense-TD) ![GitHub pull requests](https://img.shields.io/github/issues-pr/0tia0/Magi-Defense-TD) ![GitHub contributors](https://img.shields.io/github/contributors/0tia0/Magi-Defense-TD)
 
 ## 👾 Tech Stack
 
