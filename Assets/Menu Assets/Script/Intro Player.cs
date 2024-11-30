@@ -13,6 +13,19 @@ namespace Menu_Assets.Script
         [SerializeField]
         private VideoPlayer videoPlayer;
         
+        [SerializeField]
+        private int playVideoCooldown = 1;
+        
+        [SerializeField]
+        private int fadeOutVideoCooldown = 6;
+        
+        [SerializeField]
+        private int loadMainMenuCooldown = 12;
+        
+        [Header("Main Menu")]
+        [SerializeField]
+        private GameObject mainMenuScene;
+        
         // Internal parameters
         private bool _isFadingOut;
 
@@ -22,10 +35,13 @@ namespace Menu_Assets.Script
         private void Start()
         {
             // Wait 1 second
-            Invoke(nameof(PlayVideo), 1);
+            Invoke(nameof(PlayVideo), playVideoCooldown);
             
             // Wait 6 seconds before gradually reducing the alpha level of the video player
-            Invoke(nameof(FadeOut), 6);
+            Invoke(nameof(FadeOut), fadeOutVideoCooldown);
+            
+            // Wait 1 second before loading the main menu scene
+            Invoke(nameof(LoadMainMenu), loadMainMenuCooldown);
         }
         
         /**
@@ -42,6 +58,12 @@ namespace Menu_Assets.Script
         private void FadeOut()
         {
             _isFadingOut = true;
+        }
+        
+        private void LoadMainMenu()
+        {
+            // Load the main menu scene
+            mainMenuScene.SetActive(true);
         }
         
         /**
